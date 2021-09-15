@@ -8,8 +8,11 @@ queue.append(3)
 queue.append(4)
 queue.append(5)
 
-queue.popleft() #왼쪽에 있는 원소를 제거
-queue.popleft()
+v = queue.popleft() #왼쪽에 있는 원소를 제거
+print(v)
+
+v = queue.popleft()
+print(v)
 
 print(queue)
 queue.reverse()
