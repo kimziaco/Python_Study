@@ -12,5 +12,6 @@ for i in range(2, int(math.sqrt(N))+1):
             j += 1
 
 for i in range(M, N+1):
-    if arry[i]:
-        print(i)
+    if i != 1:
+        if arry[i]:
+            print(i)
