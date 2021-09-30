@@ -1,5 +1,5 @@
 def solution(x):
-    str_x = x
+    str_x = str(x)
     sum = 0
 
     for i in str_x:
