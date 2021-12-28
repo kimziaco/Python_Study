@@ -8,5 +8,8 @@ def solution(s, n):
 
     return "".join(s)
 
-s = input().split('')
+
+s = str(input())
 n = int(input())
+
+print(solution(s,n))
